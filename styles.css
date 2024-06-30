@@ -83,7 +83,20 @@ width: 50%;
 .news-input{
     width: 200px;
     height: 100%;
-    padding-block: 12px ;
+    padding-inline: 12px ;
     border-radius: 4px;
-    borderr: 2px solid #bbd;
+    border: 2px solid #bbd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search-button{
+    background-color: var(--acent-color);
+    color: white;
+    padding: 1.2rem,1.3rem;
+    border : blue;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-button:hover{
+    background-color: var(--acent-color);
 }
