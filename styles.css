@@ -100,3 +100,41 @@ width: 50%;
 .search-button:hover{
     background-color: var(--acent-color);
 }
+main{
+    padding-block: 95px;
+    margin-top: 80px;
+}
+.cards-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-items: start;
+    
+}
+
+.card{
+    width:380px;
+    min-height: 400px;
+    box-shadow: 0 0 4px #577592;
+    border-radius: 4px;
+    background-color: #f3faff;
+    overflow: hidden;
+    column-gap: 10px;
+    transition: all 0.3s ease;
+}
+.card:hover{
+background-color: rgb(104, 169, 147);
+transform: translateY(-2px);
+}
+
+.card-header img{
+    width: 100%;
+    height: 180px;
+}
+
+.card-content{
+    padding: 12px;
+}
+.news-source{
+    margin-block: 1rem;
+}
